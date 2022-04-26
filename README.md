@@ -17,9 +17,9 @@ The library only exports a single function `segment`, which takes a string (or a
    ["私" "の" "名前" "は" "Felix" "です"])
 ```
 
-## installation
+## Installation
 
-TinySegmenter is available on Clojars
+TinySegmenter is available on [Clojars](https://clojars.org/com.github.funkschy/tinysegmenter)
 
 Leiningen
 ```
