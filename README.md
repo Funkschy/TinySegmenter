@@ -15,6 +15,19 @@ The library only exports a single function `segment`, which takes a string (or a
    ["私" "の" "名前" "は" "Felix" "です"])
 ```
 
+## installation
+
+TinySegmenter is available on Clojars
+
+Leiningen
+```
+[com.github.funkschy/tinysegmenter "0.1.0"]
+```
+Clojure CLI/deps.edn
+```
+com.github.funkschy/tinysegmenter {:mvn/version "0.1.0"}
+```
+
 ## License
 
 This project is distributed under the BSD 3 License, just like [the original version by Taku Kudo](http://chasen.org/~taku/software/TinySegmenter/LICENCE.txt).
