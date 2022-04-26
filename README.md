@@ -11,6 +11,8 @@ This version is based on the [Python 3 version of TinySegmenter](https://github.
 The library only exports a single function `segment`, which takes a string (or any char sequence) as an argument.
 
 ``` clojure
+(require '[tinysegmenter.core :refer [segment]])
+
 (= (segment "私の名前はFelixです")
    ["私" "の" "名前" "は" "Felix" "です"])
 ```
